@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+    
+
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+
+}
+header{
+    background-color: rgb(0, 128, 90);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.title{
+    padding: 60px;
+    font-size: 3.2vw;
+    font-family: 'Girassol', cursive;
+
+
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 100px;
+    font-variant: small-caps;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3vw;
+    
+}
+
+
+section{
+    
+    line-height: 2em;
+    padding-top: 6.7vh;
+    padding-bottom: 18vh;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-decoration: none;
+    
+}
+section > p{
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+
+a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+
+}
+.image{
+    background-color: brown;
+    color: rgb(253, 252, 252);
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.imag{
+    background-color: brown;
+    color: rgba(3, 3, 3, 0.938);
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+section.imagem{
+    background-color: brown;
+    color: rgb(231, 227, 227);
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+section .normal{
+    background-color: rgb(241, 241, 241);
+    color:rgb(216, 203, 203)
+}
+section#img01{
+    background-image: url('semafaross-gc5f7a75c5_1920.jpg');
+    background-position: center center;
+}
+
+section#img02{
+    background-image: url('sunset-g5886a08a2_1920.jpg');
+    background-position: center center ;
+    image-rendering: pixelated;
+    
+    
+}
+
+
+section#img03{
+    background-image: url("jesus-g2d98d98ca_1920.jpg");
+}
+
+#img04{
+    background-image: url('love-g8886d062c_1920.jpg');
+}
+
+#img05{
+    background-image: url('noe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+
+a:hover, footer a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+.penultimo > li{
+    display: inline;
+    font-size: 1em;
+    margin: 2px;
+    padding: 20px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    list-style: none;
+    
+}
