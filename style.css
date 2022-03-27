@@ -35,9 +35,9 @@ header{
     font-family: 'Girassol', cursive;
 
 }
-.container > a{
+.container  > a{
     display: flex;
-    grid-row: 30px;
+    flex-wrap: wrap;
 }
 
 .titulo{
