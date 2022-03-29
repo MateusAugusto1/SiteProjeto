@@ -35,10 +35,7 @@ header{
     font-family: 'Girassol', cursive;
 
 }
-.container  > a{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .titulo{
     text-align: center;
@@ -48,8 +45,79 @@ header{
     font-size: 3vw;
     
 }
+.botao{
+    display: flex;
+    justify-content:  space-around;
+    margin: 12px 0 12px 12px;
+    
+    
+}
+.red1{
+ padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(168, 166, 166);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;  
+    cursor: pointer;
+    background:rgb(139, 141, 139);
+    color:#fff;
+    box-shadow:0 5px 0 #676967;
+    
+}
+.red2{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(168, 166, 166);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;  
+    cursor: pointer;
+    background:rgb(139, 141, 139);
+    color:#fff;
+    box-shadow:0 5px 0 #676967;
+}
+.red2:hover{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+}
+.red3{
+  padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(168, 166, 166);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;  
+    cursor: pointer;
+    background:rgb(139, 141, 139);
+    color:#fff;
+    box-shadow:0 5px 0 #676967;
+}
+.red3:hover{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+}
 
-
+.red4{
+   padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(168, 166, 166);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;  
+    cursor: pointer;
+    background:rgb(139, 141, 139);
+    color:#fff;
+    box-shadow:0 5px 0 #676967;
+}
+.red4:hover{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+}
 section{
     
     line-height: 2em;
