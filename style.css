@@ -108,10 +108,10 @@ header{
     cursor: pointer;
     background:rgb(139, 141, 139);
     color:#fff;
-    box-shadow:0 5px 0 #676967;
+    box-shadow:0 5px 0 #979797;
 }
 .red4:hover{
-    background:#006000;
+    background:#95d895;
     box-shadow:0 5px 0 #003f00;
 }
 section{
