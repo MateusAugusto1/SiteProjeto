@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
@@ -43,6 +42,7 @@ header{
     font-variant: small-caps;
     font-family: 'Luckiest Guy', cursive;
     font-size: 3vw;
+    margin-top: 30px;
     
 }
 .botao{
@@ -60,10 +60,11 @@ header{
     font-weight: 700;
     font-style: italic;  
     cursor: pointer;
-    background:rgb(139, 141, 139);
-    color:#fff;
-    box-shadow:0 5px 0 #676967;
     
+    
+}
+.red1:hover{
+    box-shadow:0 5px 0 #003f00;
 }
 .red2{
     padding: 10px;
@@ -73,12 +74,9 @@ header{
     font-weight: 700;
     font-style: italic;  
     cursor: pointer;
-    background:rgb(139, 141, 139);
-    color:#fff;
-    box-shadow:0 5px 0 #676967;
+    
 }
 .red2:hover{
-    background:#006000;
     box-shadow:0 5px 0 #003f00;
 }
 .red3{
@@ -89,12 +87,9 @@ header{
     font-weight: 700;
     font-style: italic;  
     cursor: pointer;
-    background:rgb(139, 141, 139);
-    color:#fff;
-    box-shadow:0 5px 0 #676967;
+    
 }
 .red3:hover{
-    background:#006000;
     box-shadow:0 5px 0 #003f00;
 }
 
@@ -106,12 +101,10 @@ header{
     font-weight: 700;
     font-style: italic;  
     cursor: pointer;
-    background:rgb(139, 141, 139);
-    color:#fff;
-    box-shadow:0 5px 0 #979797;
+    
 }
 .red4:hover{
-    background:#95d895;
+
     box-shadow:0 5px 0 #003f00;
 }
 section{
@@ -197,13 +190,15 @@ footer{
     text-align: center;
     padding: 10px;
 }
-.penultimo > li{
-    display: inline;
+ul li{
+    display: inline-block;
     font-size: 1em;
     margin: 2px;
-    padding: 20px;
-    text-decoration: none;
+    padding: 50px;
     padding-bottom: 15px;
-    list-style: none;
+    margin-bottom: 30px;
+    list-style-type: circle;
+    overflow: visible;
     
 }
+
