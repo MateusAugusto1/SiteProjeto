@@ -186,7 +186,7 @@ section#img03{
     
 
 footer:hover{
-    text-decoration: underline;
+    text-decoration: double;
 }
 footer{
     background-color: black;
