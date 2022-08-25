@@ -21,7 +21,7 @@ html, body{
 
 }
 header{
-    background-color: rgb(0, 128, 90);
+    background-color: rgb(57, 132, 109);
     color: white;
     text-align: center;
     padding: 50px;
@@ -30,8 +30,8 @@ header{
 
 }
 .title{
-    padding: 60px;
-    font-size: 3.2vw;
+    padding: 90px;
+    font-size: 3.6vw;
     font-family: 'Girassol', cursive;
     text-align: justify;
 
@@ -55,7 +55,7 @@ header{
     
 }
 .red1{
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(168, 166, 166);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -65,12 +65,13 @@ header{
     text-align: center;
     
     
+    
 }
 .red1:hover{
-    box-shadow:0 5px 0 ;
+    box-shadow:0 5px 0   #99c899;
 }
 .red2{
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(168, 166, 166);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -80,10 +81,10 @@ header{
     
 }
 .red2:hover{
-    box-shadow:0 5px 0 #4cb54c;
+    box-shadow:0 5px 0 #99c899;
 }
 .red3{
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(168, 166, 166);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -93,11 +94,11 @@ header{
     
 }
 .red3:hover{
-    box-shadow:0 5px 0 #4cb54c;
+    box-shadow:0 5px 0 #93e393;
 }
 
 .red4{
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(168, 166, 166);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -108,7 +109,7 @@ header{
 }
 .red4:hover{
     font-size: 14px;
-    box-shadow:0 5px 0 #4cb54c;
+    box-shadow:0 5px 0 #96f496;
 }
 section{
     
