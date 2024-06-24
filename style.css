@@ -106,7 +106,7 @@ header{
 
 .red4{
     padding: 12px;
-    background-color: rgb(168, 166, 166);
+    background-color: rgb(216, 116, 116);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-weight: 700;
@@ -120,7 +120,7 @@ header{
 section{
     
     line-height: 2em;
-    padding-top: 6.7vh;
+    padding-top: 6.9vh;
     padding-bottom: 18vh;
     padding-left: 55px;
     padding-right: 55px;
