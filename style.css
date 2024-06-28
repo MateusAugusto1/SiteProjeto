@@ -11,13 +11,12 @@
     margin: 0;
     
     
-    
 
 }
 
 html, body{
-    min-height: 100vh;
     background-color: darkgray;
+    
 
 }
 header{
@@ -164,13 +163,15 @@ section .normal{
 }
 section#img01{
     background-image: url('semafaross-gc5f7a75c5_1920.jpg');
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#img02{
     background-image: url('sunset-g5886a08a2_1920.jpg');
-    background-position: center center ;
-    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
     
 }
@@ -178,10 +179,15 @@ section#img02{
 
 section#img03{
     background-image: url("jesus-g2d98d98ca_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #img04{
     background-image: url('love-g8886d062c_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #img05{
