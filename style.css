@@ -10,12 +10,13 @@
     padding: 0;
     margin: 0;
     
-    
 
 }
 
 html, body{
-    background-color: rgb(221, 137, 137);
+    background-color: rgba(221, 137, 137, 0.116);
+
+
     
 
 }
