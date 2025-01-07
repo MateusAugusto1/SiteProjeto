@@ -16,6 +16,8 @@
 html, body{
     background-color: rgba(221, 137, 137, 0.116);
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     
 
